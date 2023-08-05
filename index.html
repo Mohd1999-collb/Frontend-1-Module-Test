@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Frontend-1 Module Test</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul class="nav-ul">
+        <!-- Left -->
+        <div class="item left-div">
+          <li class="left-li-1">
+            <img src="./assets/Vector.svg" alt="assets" />
+          </li>
+          <li class="left-li-2">Codevo</li>
+        </div>
+
+        <!-- Center -->
+        <div class="item center-div">
+          <li class="center-li-1">Home</li>
+          <li class="center-li-2 center-li">Shop</li>
+          <li class="center-li-3 center-li">Pages</li>
+          <li class="center-li-4 center-li">About Us</li>
+          <li class="center-li-5 center-li">Lookups</li>
+        </div>
+
+        <!-- Right -->
+        <div class="item rigth-div">
+          <li class="right-li-1"><img src="./assets/Icon.svg" alt="" /></li>
+          <li class="right-li-2"><img src="./assets/User.svg" alt="" /></li>
+          <li class="right-li-3">
+            <img src="./assets/Notification.svg" alt="" />
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Hero Component -->
+      <section class="hero-container">
+        <div class="hero-item-1">
+          <p class="hero-item-first-text">Limited Time Only For Winter</p>
+          <h1 class="hero-item-second-text">fashion</h1>
+          <p class="hero-item-third-text">LOOK YOUR BEST ON YOUR BEST DAY</p>
+          <div class="hero-item-forth-btn">
+            <button id="hero-item-1-button" type="submit">Explore Now!</button>
+          </div>
+        </div>
+        <div class="hero-item-2">
+          <img
+            src="./assets/pexels-thirdman-9399720-removebg-preview 1.svg"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- Collection Component -->
+      <section class="collection-container">
+        <div class="collection-item-1">
+          <div class="collection-item-first-text">
+            COLLECTION
+            <div class="horizontal-line"></div>
+          </div>
+          <div class="collection-item-second-text">Our Top Collection</div>
+          <div>
+            <button
+              type="menu"
+              class="collection-item-1-btn"
+              id="collection-item-1-button-1"
+            >
+              Jewellery
+            </button>
+            <button
+              type="menu"
+              class="collection-item-1-btn"
+              id="collection-item-1-button-2"
+            >
+              Accessories
+            </button>
+            <button
+              type="menu"
+              class="collection-item-1-btn"
+              id="collection-item-1-button-3"
+            >
+            Dresses
+            </button>
+            <button
+              type="menu"
+              class="collection-item-1-btn"
+              id="collection-item-1-button-4"
+            >
+            Footwear
+            </button>
+          </div>
+        </div>
+
+        <div class="collection-item-2">
+          <!-- Card-1 -->
+          <div class="card">
+            <img
+              class="card-img-top images-1"
+              src="./assets/PngItem_1171479.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - Imported Hoodie Red</p>
+              <a href="#" class="btn">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+
+          <!-- Card-2 -->
+          <div class="card">
+            <div class="card-2">
+
+              <div class="card-image d-flex">
+                <div class="">
+                  <img src="./assets/gratis-png-vestido-azul-cintura-escote-surplice-mujer-vestido-azul-retro-removebg-preview 1.png" alt="" class="py-1 px-1" height="228">
+                  
+                </div>
+
+                <div>  
+                  <a href="#" style="cursor: pointer;">     
+                  <img src="./assets/Favorties Icon.png" alt="" class="py-3">
+                </a>   
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-body">
+              <p class="card-text">Armani Frok Ladies -  Imported 
+                Fork Blue</p>
+              <a href="#" class="btn">$250</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating (1).png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+
+          <!-- Card-3 -->
+          <div class="card">
+            <img
+              class="card-img-top images-1"
+              src="./assets/apple-watch-series-2-hardware-3-aluminium-removebg-preview 1.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Apple Watch Series 6 - Sliver Band</p>
+              <a href="#" class="btn">$450</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+      <!-- New Arrival Component -->
+      <section class="arrival-container">
+        <div class="arrival-item-1">
+          <div class="arrival-item-first-text">
+            New Arrival
+            <div class="horizontal-line-1"></div>
+          </div>
+          <div class="arrival-item-second-text">Latest Collection</div>
+        </div>
+
+        <div class="arrival-item-2">
+
+          <div class="grid-1 d-flex flex-column justify-containt-center align-items-center">
+              <div class="grid-item-box-1 grid-item-box">
+                <div>
+                  <div class="gird-text">
+                    <p>2021 Trends <br>
+                      Women’s Smart Skirt</p>
+                  </div>
+                </div>
+              </div>
+    
+    
+              <div class="grid-item-box-2 grid-item-box">
+                <div>
+                  <div class="gird-text">
+                    <p>2021 Trends <br>
+                      Women’s Smart Skirt</p>
+                  </div>
+                </div>
+              </div>
+    
+          </div>
+    
+          <div class="grid-2">
+            <div>
+              <div class="gird-text-1 gird-text">
+                <p>2021 Trends <br>
+                  Women’s Smart Shirt
+                  <br>
+                  <br>
+                  <br>
+                  Discover More:</p>
+              </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
+
+      <!-- Categories Component -->
+      <section class="categories-container">
+        <div class="arrival-item-1">
+          <div class="arrival-item-first-text">
+            CATEGORIES
+            <div class="horizontal-line-1"></div>
+          </div>
+          <div class="categories-item-second-text">2021 Latest Collection</div>
+        </div>
+
+        <div class="categories-item-2">
+          <!-- Card-1 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/PngItem_1171479.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br> Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+          
+
+          <!-- Card-2 -->
+          <div class="card">
+            <div class="card-2">
+
+              <div class="card-image d-flex">
+                <div class="">
+                  <img src="./assets/—Pngtree—hand drawn vector minimalist cartoon_5456073 1.png" alt="" class="py-1 px-1" height="255" width="230">
+                  
+                </div>
+
+                <div>  
+                  <a href="#" style="cursor: pointer;">     
+                  <img src="./assets/Favorties Icon.png" alt="" class="py-3">
+                </a>   
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-body">
+              <div class="d-flex">
+                <p class="card-text">Nike Air Men’s Hoodie - <br> 
+                Imported Hoodie</p>
+                <a href="#" class="btn" style="padding-top: 12px; font-weight: 500; font-size: 8px; width: 88px;">Add to Cart</a>
+
+              </div>
+              <a href="#" class="btn btn-bg">$80</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+
+        
+
+          <!-- Card-3 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/2019-Summer-New-Men-Hawaiian-Short-sleeved-Shirt-Fashion-Casual-Floral-Large-Size-Shirt-Male-Brand_1500x1500_EMBED_3_720x720-removebg-preview.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br>  
+                Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+
+          <!-- Card-4 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/apple-watch-series-2-hardware-3-aluminium-removebg-preview 1.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br> 
+                Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+      
+        </div>
+
+
+        <div class="categories-item-2">
+          <!-- Card-1 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/microphone-headphones-lx50-gaming-headset-pc-game-gaming-computer-png-favpng-AdrawqYscyfskmtbQnEPbgvQ7-removebg-preview 1.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br> Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+          <!-- Card-2 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/—Pngtree—apricot lady tot women s_4423236 1.png"
+              alt="Card image cap"
+              height="228"
+              
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br> Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+
+          <!-- Card-3 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/nike-air-max-nike-tiempo-football-boot-nike-mercurial-vapor-soccer-cleat-removebg-preview.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br> Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>
+
+          <!-- Card-4 -->
+          <div class="card">
+            <img
+              class="card-img-top images-2"
+              src="./assets/HTB1HJp8f5MnBKNjSZFC7600KFXaV-removebg-preview.png"
+              alt="Card image cap"
+              height="228"
+            />
+            <div class="card-body">
+              <p class="card-text">Nike Air Men’s Hoodie - <br> Imported Hoodie</p>
+              <a href="#" class="btn btn-bg">$150</a>
+              <img
+              class="ms-5"
+              src="./assets/Rating.png"
+              alt="Card image cap"
+            />
+            </div>
+          </div>    
+        </div>
+
+
+      </section>
+  </main>
+
+    <!-- Footer -->
+    <footer class="foot-container">
+      <!-- Box-1 -->
+      <div class="foot-item-1 foot-item">
+
+        <div class="item">
+          <li class="left-li-1">
+            <img src="./assets/Vector.svg" alt="assets" />
+          </li>
+          <li class="left-li-2">Codevo</li>
+        </div>
+
+        <div class="item">
+          <li class="left-li-1">
+           <p class="text">Lorem ispum is a placeholder text 
+            commonly used as a free text.</p>
+          </li>
+        </div>
+
+        <a href="#" style="cursor: pointer; text-decoration: none; margin-right: 15px;">
+          <i class="fa-brands fa-facebook fa-2xl" style="color: #eb2f00;"></i>
+        </a>
+        <a href="#" style="cursor: pointer; text-decoration: none;  margin-right: 15px;">
+          <i class="fa-brands fa-twitter fa-2xl" style="color: #eb2f00;"></i>
+        </a>
+        <a href="#" style="cursor: pointer; text-decoration: none;  margin-right: 15px;">
+          <i class="fa-brands fa-instagram fa-2xl" style="color: #eb2f00;"></i>
+        </a>
+        <a href="#" style="cursor: pointer; text-decoration: none; ">
+          <i class="fa-brands fa-youtube fa-2xl" style="color: #eb2f00;"></i>
+        </a>
+        <div class="item">
+          <li class="left-li-1">
+           <p class="text-1">Copyrights 2021
+            @Iamabdulqadeer01</p>
+          </li>
+        </div>     
+
+      </div>
+
+
+      <!-- Box-2 -->
+      <div class="foot-item-1 foot-item">
+        <div class="box-2-item">
+          <h3>Product</h3>
+          <li class="">Download </li>
+          <li class="">Pricing</li>
+          <li class="">Locations</li>
+          <li class="">Server</li>
+          <li class="">Countries</li>
+        </div>
+      </div>
+
+      <!-- Box-3 -->
+      <div class="foot-item-1 foot-item">
+        <div class="box-2-item">
+          <h3>Category</h3>
+          <li class="">Men</li>
+          <li class="">Women</li>
+          <li class="">Kids</li>
+          <li class="">Best Seller</li>
+          <li class="">New Arrivals</li>
+        </div>
+      </div>
+
+      <!-- Box-4 -->
+      <div class="foot-item-1 foot-item">
+        <div class="box-2-item">
+          <h3>My Account</h3>
+          <li class="">My Account </li>
+          <li class="">Discount</li>
+          <li class="">Returns</li>
+          <li class="">Order History</li>
+          <li class="">Order Tracking</li>
+        </div>
+      </div>
+
+      <!-- Box-4 -->
+      <div class="foot-item-1 foot-item" style>
+        <div class="box-4-item">
+          <h3>Contact Us</h3>
+          <img src="./assets/Group 1317.png" alt="">
+          <img src="./assets/Group 1316.png" alt="">
+          <img src="./assets/Group 1318.png" alt="">
+        </div>
+      </div>
+    </footer>
+
+    <!-- Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
